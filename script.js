@@ -2,6 +2,7 @@ const currentDayText = document.querySelector("#currentDayOfTheWeek");
 const currentUTCTime = document.getElementById("currentUTCTime");
 const date = new Date();
 
+
 const generateCurrentDate = () => {
     
   const daysOfTheWeek = [
